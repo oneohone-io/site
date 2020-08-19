@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial,x-locale-body,sans-serif;
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
