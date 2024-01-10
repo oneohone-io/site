@@ -1,16 +1,95 @@
 body {
-    background-color: grey;
+    background-color: white;
     color: white;
-    font-family: Arial,x-locale-body,sans-serif;
+    /* font-family: Arial,x-locale-body,sans-serif; */
+    font-family: "Readex Pro",x-locale-body,sans-serif;
     line-height: 1.5em;
+}
+
+#navbar {
+    background-color: white;
+    color: black;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
 }
 
 #logo {
     width: 200px;
 }
 
+#logo-navbar {
+    filter: invert(1);
+    width: 100px;
+}
+
+#navbar-actions {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#language-toggle {
+    display: flex;
+    justify-content: end;
+}
+
+#navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    > a {
+        color: black;
+    }
+}
+
+.section {
+    margin: 60px 60px;
+    padding: 10px 30px;
+    height: 30rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.section-title {
+    display: flex;
+}
+
+.section-description {
+    display: flex;
+    width: 90%;
+    justify-self: safe;
+    align-self: end;
+
+    > p {
+        text-align: start;
+    }
+}
+
+#mission {
+    background-color: #53aa96;
+}
+
+#experience {
+    background-color: #3c0aff;
+    height: auto;
+}
+
+#stack {
+    background-color: #c7c63e;
+
+}
+
+#contacts {
+    background-color: #e8716a;
+}
+
 a {
-    color: #c8b7b7;
+    /* color: #c8b7b7; */
     text-decoration: none;
 }
 
